@@ -21,7 +21,7 @@ The material is **role- and level-aware**: most chapters flag what depth is expe
 
 ## How the book is organized
 
-The book is structured in three parts, plus appendices. The full, detailed table of contents lives in the manuscript (`TOC_bhattacharya.docx`); a high-level view follows.
+The book is structured in three parts, plus appendices.
 
 ### Part 1 — Foundations & Interview Framework
 1. The AI System Design Interview Landscape
@@ -30,33 +30,49 @@ The book is structured in three parts, plus appendices. The full, detailed table
 4. Core AI/ML System Design Concepts
 5. Back-of-the-Envelope Estimation for AI Systems
 
-### Part 2 — Practical AI System Design Case Studies
-6. Recommendation Systems · 7. Search & Ranking · 8. Ads Ranking & Computational Advertising · 9. Feed Ranking & Personalization · 10. Harmful-Content Detection / Trust & Safety · 11. Fraud & Anomaly Detection · 12. Conversational AI & Chatbots · 13. Computer Vision · 14. Forecasting & Prediction · 15. Notifications & Delivery Optimization
+### Part 2 — Modern AI System Building Blocks
+6. Foundation Model Systems: LLMs, RAG, and Multimodal AI
+7. Agentic AI Systems
+8. AI at Scale: Infrastructure, MLOps, and Responsible AI
 
-### Part 3 — Advanced AI Systems: The New Frontier
-16. LLM Systems & Infrastructure · 17. Retrieval-Augmented Generation (RAG) · 18. Agentic AI Systems · 19. Multi-Modal AI Systems · 20. AI Infrastructure, Platforms & MLOps at Scale · 21. Responsible AI & Emerging Trends
+### Part 3 — Practical AI System Design Case Studies
+9. Recommendation & Feed Ranking · 
+10. Ads Ranking & Computational Advertising · 
+11. Harmful-Content Detection / Trust & Safety · 
+12. Fraud & Anomaly Detection · 
+13. Agentic Customer Support · 
+14. Computer Vision · 
+15. Forecasting & Prediction · 
+16. Notifications & Delivery Optimization · 
+17. Code Review & Code-Quality Agent · 
+18. Deep Research & Planning Agent
 
 ### Appendices
-Diagram templates · quick-reference cards · role-based interview checklists · estimation reference tables · prep cheatsheet template · 30-day study plan.
+- Diagram templates
+- quick-reference cards
+- role-based interview checklists
+- estimation reference tables
+- prep cheatsheet template
+- 30-day study plan.
 
 ---
 
 ## What's in this repository
 
-Supplementary content is under [`chapters/`](./chapters/), organized around the book's **foundational and advanced-concept chapters**. Each folder has its own `README.md` index.
+Supplementary content is under [`chapters/`](./chapters/), with **one folder per book chapter** for Parts 1 and 2 (chapters 1–8). Each folder has its own `README.md` index.
 
-| Folder | Theme | Highlights |
+| Folder | Book chapter | Highlights |
 |---|---|---|
-| [`chapter 1`](./chapters/chapter%201/) | The AI System Design Interview | Common interviewee doubts · interview-prep resource list · role→depth self-assessment · key-terms glossary |
-| [`chapter 2`](./chapters/chapter%202/) | Interview Framework | Phase-by-phase time-box cheat sheet · self-scoring scorecard · signposting & recovery scripts · common-pitfalls checklist · doubts · glossary |
-| [`chapter 3`](./chapters/chapter%203/) | Core Distributed Systems | 10 verified estimation drills (QPS/storage/bandwidth/cache) · engineering-blog index · key-terms · common doubts |
-| [`chapter 4`](./chapters/chapter%204/) | Core AI/ML Concepts | "Does this need ML?" practice bank · model-selection & feature-store decision trees (incl. GenAI/agentic) · blog index · key-terms |
-| [`chapter 5`](./chapters/chapter%205/) | Estimation | **29-problem drill bank** · **interactive calculators notebook** · reference-numbers quick card · consolidated references · key-terms |
-| [`chapter 6`](./chapters/chapter%206/) | LLMs, RAG & Multimodal | Prompt vs. fine-tune vs. RAG matrix · model/serving landscape (living) · blog/paper index · key-terms |
-| [`chapter 7`](./chapters/chapter%207/) | Agentic AI | Agent-pattern selection guide · safety/governance checklist · MCP & A2A references (living) · key-terms · common doubts |
-| [`chapter 8`](./chapters/chapter%208/) | AI at Scale | Infra estimation drills (bridges Ch. 5) · ML-platform reference architectures · responsible-AI checklist · emerging-trends (living) · blog/paper index · key-terms |
+| [`chapter 1`](./chapters/chapter%201/) | 1 · The AI System Design Interview Landscape | Common interviewee doubts · interview-prep resource list · role→depth self-assessment · key-terms glossary |
+| [`chapter 2`](./chapters/chapter%202/) | 2 · A Framework for Acing the Interview | Phase-by-phase time-box cheat sheet · self-scoring scorecard · signposting & recovery scripts · common-pitfalls checklist · doubts · glossary |
+| [`chapter 3`](./chapters/chapter%203/) | 3 · Core Distributed Systems Concepts | 10 verified estimation drills (QPS/storage/bandwidth/cache) · engineering-blog index · key-terms · common doubts |
+| [`chapter 4`](./chapters/chapter%204/) | 4 · Core AI/ML System Design Concepts | "Does this need ML?" practice bank · model-selection & feature-store decision trees (incl. GenAI/agentic) · blog index · key-terms |
+| [`chapter 5`](./chapters/chapter%205/) | 5 · Back-of-the-Envelope Estimation | **29-problem drill bank** · **interactive calculators notebook** · reference-numbers quick card · consolidated references · key-terms |
+| [`chapter 6`](./chapters/chapter%206/) | 6 · Foundation Model Systems: LLMs, RAG & Multimodal | Prompt vs. fine-tune vs. RAG matrix · model/serving landscape (living) · blog/paper index · key-terms |
+| [`chapter 7`](./chapters/chapter%207/) | 7 · Agentic AI Systems | Agent-pattern selection guide · safety/governance checklist · MCP & A2A references (living) · key-terms · common doubts |
+| [`chapter 8`](./chapters/chapter%208/) | 8 · AI at Scale: Infrastructure, MLOps & Responsible AI | Infra estimation drills (bridges Ch. 5) · ML-platform reference architectures · responsible-AI checklist · emerging-trends (living) · blog/paper index · key-terms |
 
-> **Note on chapter mapping:** the folders above track the book's foundational (Part 1) and advanced-concept (Part 3) chapters. Chapter `6` consolidates the LLM/RAG/Multimodal material, `7` covers agentic AI, and `8` covers infrastructure, MLOps, and Responsible AI. Supplements for the Part 2 case-study chapters will be added over time.
+> **Note on coverage:** folders `chapter 1`–`chapter 8` map one-to-one to the book's Part 1 (Foundations) and Part 2 (Modern AI System Building Blocks) chapters. Supplements for the Part 3 case-study chapters (9–18) will be added over time.
 
 ### Content types you'll find
 - **Estimation drills** — worked, numerically-verified back-of-the-envelope problems (traffic, storage, GPU memory, KV cache, training cost, cluster sizing).
