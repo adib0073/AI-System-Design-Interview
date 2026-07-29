@@ -2,7 +2,7 @@
 
 The highest-churn material in the book — which is exactly why it lives in the repo, not in print. Extends Chapter 8's "Emerging trends" section. In interviews, **mention a trend to show awareness, then discuss its trade-offs and current maturity** (naming a buzzword without judgment is a weak signal).
 
-> ⚠️ **Living document — verify before quoting.** Vendors, model names, and specifics change monthly. Reason about the *direction* and *trade-offs*, not the latest release. Last reviewed: July 2026.
+> ⚠️ **Living document — verify before quoting.** Vendors, model names, and specifics change monthly. Reason about the *direction* and *trade-offs*, not the latest release. Last reviewed: 2026.
 
 ---
 
