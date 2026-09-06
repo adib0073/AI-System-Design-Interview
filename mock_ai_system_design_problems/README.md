@@ -45,6 +45,7 @@ Each file below is a **self-contained mock interview**: the prompt as an intervi
 | [13](./13-amazon-fashion.md) | Design Amazon Fashion | Recommendations + visual + GenAI |
 | [14](./14-amazon-ring-authentication.md) | User identification & authentication in Amazon Ring | Biometric / face recognition + security |
 | [15](./15-autonomous-swe-agent-platform.md) | Autonomous software-engineering agent platform | Multi-agent coding at repo scale |
+| [16](./16-agentic-text-to-sql.md) | Design an Agentic Text-to-SQL System | Enterprise data agent + constrained tool use |
 
 ---
 
