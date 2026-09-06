@@ -59,7 +59,9 @@ The book is structured in three parts, plus appendices.
 
 ## What's in this repository
 
-Supplementary content is under [`chapters/`](./chapters/), with **one folder per book chapter** for Parts 1 and 2 (chapters 1–8). Each folder has its own `README.md` index.
+Supplementary content is under [`chapters/`](./chapters/), with **one folder per book chapter** (chapters 1–18). Each folder has its own `README.md` index. There is also a bank of **[timed mock system design problems](./mock_ai_system_design_problems/)** (see below).
+
+### Part 1 & 2 — Foundations and building blocks (chapters 1–8)
 
 | Folder | Book chapter | Highlights |
 |---|---|---|
@@ -72,7 +74,28 @@ Supplementary content is under [`chapters/`](./chapters/), with **one folder per
 | [`chapter 7`](./chapters/chapter%207/) | 7 · Agentic AI Systems | Agent-pattern selection guide · safety/governance checklist · MCP & A2A references (living) · key-terms · common doubts |
 | [`chapter 8`](./chapters/chapter%208/) | 8 · AI at Scale: Infrastructure, MLOps & Responsible AI | Infra estimation drills (bridges Ch. 5) · ML-platform reference architectures · responsible-AI checklist · emerging-trends (living) · blog/paper index · key-terms |
 
-> **Note on coverage:** folders `chapter 1`–`chapter 8` map one-to-one to the book's Part 1 (Foundations) and Part 2 (Modern AI System Building Blocks) chapters. Supplements for the Part 3 case-study chapters (9–18) will be added over time.
+### Part 3 — Case-study chapters (chapters 9–18)
+
+Each case-study folder carries a consistent set: a `README.md` index, a **`key-terms.md`** glossary slice (scanned from the chapter), a **`common-doubts.md`** FAQ, and an **`engineering-blogs.md`** curated real-world reading list.
+
+| Folder | Book chapter | Signature focus |
+|---|---|---|
+| [`chapter 9`](./chapters/chapter%209/) | 9 · Recommendation & Feed Ranking | Multi-stage funnel · two-tower + ANN · multi-task ranking · cold start/diversity |
+| [`chapter 10`](./chapters/chapter%2010/) | 10 · Ads Ranking & Computational Advertising | Auctions (GSP/VCG) · eCPM · pCTR/pCVR **calibration** · pacing · privacy |
+| [`chapter 11`](./chapters/chapter%2011/) | 11 · Harmful-Content Detection / Trust & Safety | Asymmetric costs · hash matching · severity × confidence · **prevalence** |
+| [`chapter 12`](./chapters/chapter%2012/) | 12 · Fraud & Anomaly Detection | Imbalance/PR-AUC · velocity & graph features · rules+ML · **step-up auth** · delayed labels |
+| [`chapter 13`](./chapters/chapter%2013/) | 13 · Agentic Customer Support | LLM agent · RAG over policies · **read/write split** · approval gates · deflection/CSAT |
+| [`chapter 14`](./chapters/chapter%2014/) | 14 · Computer Vision | **Visual search (embeddings + ANN)** · ViT/YOLO/CLIP/SAM · OCR · on-device/edge |
+| [`chapter 15`](./chapters/chapter%2015/) | 15 · Forecasting & Prediction | **No leakage · rolling-origin backtesting** · global vs. local · probabilistic · WAPE/MASE |
+| [`chapter 16`](./chapters/chapter%2016/) | 16 · Notifications & Delivery Optimization | **Value − annoyance** · volume optimization · long-term holdouts · GenAI/agentic |
+| [`chapter 17`](./chapters/chapter%2017/) | 17 · Code Review & Code-Quality Agent | **Precision > recall / trust** · ground + verify (sandbox) + gate · untrusted code |
+| [`chapter 18`](./chapters/chapter%2018/) | 18 · Deep Research & Planning Agent | **Orchestrator + sub-agents** · transactions (saga/idempotency) · approval gates · durable state |
+
+### Mock system design problems (timed practice)
+
+The [`mock_ai_system_design_problems/`](./mock_ai_system_design_problems/) folder holds **15 self-contained, timed (35–40 min) mock interviews** — each with the prompt, a minute-by-minute game plan, a full CHASE walkthrough, frequently asked follow-ups, tips/do's-and-don'ts, and a 60-second close. They span classic ML, LLM/RAG, multimodal, and agentic archetypes (churn, NotebookLM, Glean, Google Lens, Amazon Rufus, autonomous SWE agents, and more).
+
+> **Note on coverage:** folders `chapter 1`–`chapter 18` map one-to-one to the book's chapters. The case-study folders (9–18) focus on glossary, common doubts, and curated reading; the timed practice lives in `mock_ai_system_design_problems/`.
 
 ### Content types you'll find
 - **Estimation drills** — worked, numerically-verified back-of-the-envelope problems (traffic, storage, GPU memory, KV cache, training cost, cluster sizing).
